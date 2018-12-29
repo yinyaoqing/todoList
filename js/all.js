@@ -3,11 +3,7 @@ var app = new Vue({
     el: '#app',
     data: {
         newTodo: '',
-        todos: [{
-            id: 1,
-            title: '快來建立自己的代辦清單吧！',
-            completed: false,
-        }],
+        todos: [],
         visibility: 'all',
         cacheTodo: {},
         cacheTitle: '',
